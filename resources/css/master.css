@@ -1,0 +1,22 @@
+.mycontainer {
+  width: 100%;
+  height: 100vh;
+  background-color: lightgray;
+  background-image: linear-gradient(160deg, white, gray);
+}
+.myinput{
+    width: 400px;
+    height: 50px;
+    margin-inline: auto;
+    margin-bottom: 5px;
+    display: block;
+    border-radius: 5px;
+    outline: none;
+    border: 3px solid black;
+    padding-left: 10px;
+}
+.header{
+    width: fit-content;
+    margin-inline: auto;
+    margin-bottom: 40px;
+}

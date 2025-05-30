@@ -1,0 +1,41 @@
+.myspan{
+    background-color: #0dcaf0;position: absolute;top: 0;left: 50%;transform:translateX(-50%); width: 140px;height: 40px;border-radius: 8px;font-size: 30px; display: flex; justify-content: center;align-items: center
+}
+.myform{
+    width: 200px;
+    position: absolute;
+    right: 5px;
+    top: 150px;
+    >input{
+        display: block;
+        width: 200px;
+        height: 30px;
+        margin-bottom: 5px;
+        border-radius: 6px;
+    }
+    >select{
+        display: block;
+        width: 200px;
+        height: 30px;
+        margin-bottom: 5px;
+        border-radius: 6px;
+    }
+
+}
+.search{
+position: absolute;
+    left: 5px;
+    top: 40px;
+}
+.mytable{
+    width: calc(100% - 250px);
+    position: absolute;
+    left: 5px;
+    top: 100px;
+
+}
+.observe{
+    position: absolute;
+    right: 5px;
+    top: 50px;
+}
